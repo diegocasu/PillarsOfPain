@@ -1,0 +1,289 @@
+
+#menuOrizzontale {
+
+	position: 		relative ; 
+    width: 			1000px	 ;
+    height: 		50px     ; 
+    left:			-6px 	 ; 
+    float: 			left     ;
+    top:			30px 	 ;
+    margin: 		0        ; 
+    padding: 		0 		 ;
+    z-index:		20		 ;
+
+}
+
+
+#SfondoMenu {
+
+	position:		relative ;
+	width: 			1005px 	 ;
+	height: 		50px   	 ; 
+	left:			-3px 	 ;
+	border-radius: 	5px 	 ;
+	border:			1px      ;
+	border-style: 	solid 	 ;
+	border-color: 	black 	 ;	
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ;
+   	z-index:		0 ;
+
+}
+
+
+.Menu_Sezione {
+
+	position: absolute ;
+	top:	  0px 	   ;
+	width: 	  200px    ;
+	height:   50px     ;
+	transition: 		height 300ms ease ;
+	-moz-transition: 	height 300ms ease ; 
+  	-o-transition: 		height 300ms ease ; 
+  	-webkit-transition: height 300ms ease ;
+
+}
+
+
+#Menu_Notizie {
+
+	width: 150px ;
+
+}
+
+
+#Menu_Recensioni {
+
+	left: 	170px ;
+	width: 	170px ;
+
+} 
+
+
+#Menu_Recensioni:hover {
+
+	top:  			  1px     ;
+	height: 		  220px   ;
+	border: 		  1px     ;
+   	border-style: 	  solid   ;
+   	border-color: 	  #2F2F2F ;
+   	border-radius:    10px    ;
+   	z-index: 		  1 	  ;
+   	background-color: #2B2B2B ;
+
+}
+
+
+#Menu_Recensioni:hover #LinkRecensioni {
+
+	top:  13px ;
+	left: 38px ;
+
+}
+
+
+.Separatore_Recensioni {
+
+	position: relative ;
+	top:      23px     ;
+	left: 	  5px      ;
+	width:    170px    ;
+	height:   10px     ;
+
+}
+
+
+.HoverLink_Recensioni {
+
+	position:   		relative ;
+	top:  	  			23px 	 ;
+	left: 	  			36px 	 ;
+	font-family: 		serif, sans-serif ;
+	font-size: 			17px 	 ;
+	font-weight: 		700 	 ;
+	color: 				#B5B5B5  ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ; 
+
+}
+
+
+#Menu_Speciali {
+
+	width: 170px ;
+	left:  350px ;
+
+}
+
+
+#Menu_Speciali:hover {
+
+	top:  			  1px     ;
+	height: 		  180px   ;
+	border: 		  1px     ;
+   	border-style: 	  solid   ;
+   	border-color: 	  #2F2F2F ;
+   	border-radius:    10px    ;
+   	z-index: 		  1 	  ;
+   	background-color: #2B2B2B ;
+
+}
+
+
+#Menu_Speciali:hover #LinkSpeciali {
+
+	top:  13px ;
+	left: 44px ;
+
+}
+
+
+.HoverLink_Speciali {
+
+	position:   		relative ;
+	top:  	  			23px 	 ;
+	left: 	  			42px 	 ;
+	font-family: 		serif, sans-serif ;
+	font-size: 			17px 	 ;
+	font-weight: 		700 	 ;
+	color: 				#B5B5B5  ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ; 
+
+}
+
+
+.Separatore_Speciali {
+
+	position: relative ;
+	top:      23px     ;
+	left: 	  5px      ;
+	width:    170px    ;
+	height:   10px     ;
+
+}
+
+
+.HoverLink_Recensioni:hover, .HoverLink_Speciali:hover {
+
+	color: #551A8B ;
+
+}
+
+
+#Menu_Contatti {
+
+	left: 550px  ;
+
+}
+
+
+#Menu_Ricerca {
+
+	width: 250px ;
+	left: 750px  ;
+
+}
+
+
+.LinkPrincipale {
+
+	position: 			relative ;
+	top:  				15px ;					
+	font-size: 			17px ;
+	font-weight: 		700  ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ; 
+
+}
+
+
+.LinkPrincipale:hover {
+
+	color: #551A8B ;
+
+}
+
+
+#LinkNotizie {
+
+	left: 60px 	;
+
+}
+
+
+#LinkRecensioni {
+
+	left: 39px ;
+
+}
+
+
+#LinkSpeciali {
+
+	left: 45px ;
+
+}
+
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {  display: none ; }
+
+
+#SearchBox {
+
+	position: 		  relative ;
+	top:  	  		  10px     ;
+	left: 	  		  10px     ;
+	width: 	 		  170px    ;
+	height:   		  30px     ;
+    border-radius:    8px	   ;
+    background-color: #1C1C1C  ;
+    box-shadow: 	  4px 3px 2px rgba(0,0,0,0.9) inset ;
+
+}
+
+
+#SearchBar {
+
+	position: 		  relative ;
+	width: 		      140px    ;
+	height: 		  29px     ;
+	left: 			  0px	   ;
+    font-size:     	  16px     ;
+    font-style:    	  oblique  ;
+    font-family:   	  serif, sans-serif ;
+    color:		   	  #B5B5B5  ;
+    border:        	  0 none   ;
+    padding-left:  	  15px 	   ;
+    padding-bottom:   0 	   ;
+    outline: 	   	  none     ;
+    border-radius:    8px 0px 0px 8px ;
+    background-color: #1C1C1C  ;
+    box-shadow: 	  2px 3px 2px rgba(0,0,0,0.9) inset ;
+
+}
+
+
+#SearchButton {
+
+	position: 		  absolute ;
+	width: 	  		  15px 	   ;
+	height:   		  15px 	   ;
+	top:	  		  8px 	   ;
+	left:	  		  145px    ;
+	border:   		  0 	   ;
+	outline: 		  none     ;
+	z-index: 		  10 	   ;
+	cursor: 		  pointer  ;
+	background-image: url("../../Immagini/Search.png") ;
+	background-color: inherit  ;
+
+}

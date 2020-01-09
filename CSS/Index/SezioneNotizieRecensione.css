@@ -1,0 +1,88 @@
+
+#SezioneNotizieRecensioni {
+
+	position: relative ;
+	top:	  118px    ;
+	width: 	  1000px   ;
+	height:   2400px   ;
+
+}
+
+
+#UltimeNR {
+
+	position:		relative ;
+	width: 			1005px 	 ;
+	height: 		50px   	 ;
+	top:			-4px     ; 
+	left:			-8px 	 ;
+	border-radius: 	5px 	 ;
+	border: 		1px 	 ;
+	border-style: 	solid 	 ;
+	border-color: 	black 	 ;	
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ;
+   	z-index:		-6 ;
+
+}	
+
+.UltimeNotRece {
+
+	position: 			 relative ;
+	top:  				 -50px    ;
+	font-size:			 27px     ;
+	font-family: 		 serif, sans-serif ;
+	color: 				 #B5B5B5  ;
+	font-weight: 		 500      ;
+	transition: 		 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ; 
+
+}
+
+
+#UltimeNot {
+
+	left: 130px ;
+	
+}
+
+
+.AntiWarningH1 {
+
+	display: 		inline  ;
+	font: 			inherit ;
+	margin-top: 	1em ;
+    margin-bottom:  1em ;
+    margin-left: 	0   ;
+    margin-right: 	0   ;
+
+}
+
+
+ #UltimeRece {
+
+	left:	420px ;
+	width: 	215px ;
+	height: 31px;
+
+}
+
+
+.UltimeNotRece:hover {
+
+ 	color: #551A8B ;
+
+}
+
+
+#divisoreUltime {
+
+	position: 		  relative ;
+	top:			  -90px    ;
+	left: 			  490px	   ;
+	width: 			  1px 	   ;
+	height: 		  2402px   ;
+	background-color: black    ;
+
+}

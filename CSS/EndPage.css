@@ -1,0 +1,309 @@
+
+#ContenitoreConclusivo {
+
+	position: relative ; 
+	top:	  118px    ;
+
+}
+
+
+#Conclusivo {
+
+	position:		relative ;
+	width: 			1005px 	 ;
+	height: 		50px   	 ;
+	left:			-8px 	 ;
+	border-radius: 	5px 	 ;
+	border:			1px      ;
+	border-style: 	solid    ;
+	border-color: 	black    ;	
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ;
+   	z-index:		6 ;
+
+}	
+
+
+#Finale {
+
+	position: 			relative ;
+	width:    			1000px   ;
+	height:  			500px    ;
+	top:				-5px     ;
+	left: 	  			-6px     ; 
+	background-color: 	rgba(0,0,0,0.6) ;
+
+}
+
+
+
+#UltimiCommentiRecensioni {
+
+	position: relative ;
+	width:    333px    ;
+	height:   500px    ;
+
+}
+
+
+#UltimiRecensioni {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;
+	top:  	    -55px    ;
+	left: 	    0px  	 ;
+	font-size:  20px 	 ;
+	color: 		#B5B5B5  ;
+    z-index:    10 	     ;
+}
+
+
+
+#UltimiCommentiNotizie {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;
+	top:  	    0px      ;
+	left: 	    333px  	 ;
+	font-size:  20px 	 ;
+	color: 		#B5B5B5  ;
+
+}
+
+
+#UltimiNotizie {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;
+	top:  	    -55px    ;
+	font-size:  20px     ;
+	color: 		#B5B5B5  ;
+    z-index:    10 ;
+
+}
+
+
+
+#UltimiCommentiSpeciali {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;
+	top:  	    0px      ;
+	left: 	    666px  	 ;
+	font-size:  20px 	 ;
+	color: 		#B5B5B5  ;
+
+}
+
+
+#UltimiSpeciali {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;
+	top:  	    -55px    ;
+	left: 	    0px      ;
+	font-size:  20px     ;
+	color: 		#B5B5B5  ;
+    z-index:    10 ;
+
+}
+
+
+.CampoUltimi {
+
+	position: relative ;
+	width: 	  333px    ;
+	height:   166px    ;
+	border-bottom:  1px solid black ;
+
+}
+
+
+.NomeArticolo {
+
+   position: 	   absolute  ; 
+   width: 	 	   313px     ;
+   height:   	   30px      ;
+   font-family: serif, sans-serif ;
+   font-size:  	   19px      ;
+   font-weight:    900    	 ;
+   padding-left:   10px  	 ;
+   padding-right:  10px 	 ;
+   padding-top:    5px  	 ;
+   padding-bottom: 5px 	 	 ;
+   text-align:     center    ;
+   overflow:       hidden    ;
+   white-space:    nowrap    ;
+   text-overflow:	   ellipsis ;
+   -ms-text-overflow:  ellipsis ;
+
+}
+
+
+.UltimiNomeUtente {
+
+	position: 		absolute ;
+	width: 	  	    313px    ;
+	height:   	    30px     ;
+	top:			28px     ;
+	text-align:     left     ;
+    font-family: serif, sans-serif ;
+    font-size:  	17px     ; 
+    font-weight:    700   	 ;
+    padding-left:   10px  	 ;
+    padding-right:  10px 	 ;
+    padding-top:    5px  	 ;
+    padding-bottom: 5px 	 ;
+    overflow:       hidden   ;
+    white-space:    nowrap   ;
+    text-overflow:	   ellipsis  ;
+    -ms-text-overflow:  ellipsis ;
+
+}
+
+
+.TestoUltimo {
+
+	position: 		absolute    ;
+	display:        block  	    ;	
+    display: 	    -webkit-box ;
+    margin: 	 	0 auto	    ;
+	width: 	  	    313px    	;
+	height:   	    90px    	;
+	top:			50px     	;
+	text-align:     left        ;
+    font-family: serif, sans-serif ;
+    font-size:  	17px     	; 
+    padding-left:   10px  	 	;
+    padding-right:  10px 	 	;
+    padding-top:    5px  	 	;
+    padding-bottom: 10px 	 	;
+    overflow:       hidden  	;
+    text-overflow:  ellipsis 	;
+    -webkit-line-clamp: 5    	;
+    -webkit-box-orient: vertical;
+ 
+}
+
+
+
+#footer {
+
+	position: relative ;
+	top:	  113px    ;
+	left:     -7px     ;
+	width: 	  1001px   ;
+	height:   50px     ;
+
+}
+
+
+#FinalFooter {
+
+	position:       relative ;
+	width:          1000px   ;
+	height:         50px     ;
+	border-radius: 	0px 0px 5px 5px ;
+	border:			1px      ;
+	border-style: 	solid    ;
+	border-color: 	black    ;	
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ;
+
+}
+
+
+#Copyright {
+
+	position: 	 absolute ;
+	top:     	 4px      ;
+	left:	     15px     ;
+	width:       auto     ;
+	font-family: serif , sans-serif ;
+	font-size:   15px     ; 
+	color : 	 #B5B5B5  ; 
+
+}
+
+
+#InformativaPrivacyLink {
+
+	position: absolute ;
+	top: 	  18px 	   ;
+	left: 	  200px    ;
+	transition: 		color 300ms ease ;
+	-moz-transition: 	color 300ms ease ; 
+  	-o-transition: 		color 300ms ease ; 
+  	-webkit-transition: color 300ms ease ;
+
+}
+
+
+#InformativaPrivacyLink:hover {
+
+	color: #551A8B ;
+
+}
+
+
+.CorrectButtons {
+
+	position: absolute ;
+	width: 	  40px     ;
+	height:   40px     ;
+	top:      5px      ;
+
+}
+
+
+#Html5 {
+
+	left: 650px ;
+
+}
+
+
+#CSS {
+
+	left: 693px ;
+	
+}
+
+
+#JavaScript {
+
+	left: 736px ;
+	
+}
+
+
+#Chrome {
+
+	left: 779px ;
+	
+}
+
+
+#Opera {
+
+	left: 822px ;
+	
+}
+
+
+
+#Firefox {
+
+	left: 865px ;
+	
+}
+
+
+#Unipi {
+
+	left: 908px ;
+	
+}

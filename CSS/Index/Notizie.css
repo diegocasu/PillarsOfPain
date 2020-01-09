@@ -1,0 +1,136 @@
+
+#News {
+
+	position: absolute ;
+	width: 	  450px    ;
+	height:   2350px   ;  
+	top: 	  32px  ;
+	left:	  -6px     ;
+
+}
+
+
+#News li {
+
+	list-style-type: none ;
+
+}
+
+
+.Notizia {
+
+	position: 			relative ;
+	width: 				496px ;
+	height: 			100px ;
+	left: 				-40px ;
+	background-color: 	rgba(0,0,0,0.6) ;
+}
+
+
+.ImgNotizia {
+
+	position: 		relative ;
+	width: 	 		58px     ;
+	height:  		58px     ;
+	left:    		10px     ;
+	top:    		12px     ;
+	border:			0px      ;
+	border-style: 	solid    ;
+	border-color: 	#B5B5B5  ;
+	border-radius: 	10px     ;
+	box-shadow: 	rgba(0,0,0,0.3) 1px 1px 0px 1px ;
+
+}
+
+
+.SintesiNotizia {
+
+	position:  relative ;
+	top: 	   -55px    ;
+	left:      80px     ; 
+	width:     420px    ;
+
+}
+
+
+.TestoNotizia {
+
+	text-align: 		 left ;
+	font-family: 		 serif, sans-serif ;
+	font-size: 			 18px ;
+	font-weight: 		 700  ;
+	color: 				 #B5B5B5 ;
+	padding-right:  	 5px  ;
+	transition: 		 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ; 
+
+}
+
+
+.TestoNotizia:hover {
+
+	color: #551A8B ;
+
+}
+
+
+.Pubblicazione {
+
+	position:		absolute ;
+	top: 			40px     ;
+	font-family:    serif, sans-serif ;
+	font-size: 		17px     ;
+	font-weight: 	100      ; 
+	color: 			#B5B5B5  ;
+
+}
+
+
+.SeparatoreNotizie1 {
+
+	position: absolute ;
+	width: 	  1000px   ;
+	height:   1px      ;
+	top: 	  100px    ;
+	background-color: #B5B5B5 ;
+	z-index:  6 ;
+
+}
+
+
+.SeparatoreNotizie2 {
+
+	position: absolute ;
+	width: 	  496px    ;
+	height:   1px 	   ;
+	top: 	  100px    ;
+	background-color: #B5B5B5 ;
+	z-index:  1 ;
+
+}
+
+
+#AltreNotizie {
+
+	position: 			 relative ;
+	top:				 8px      ;
+	left: 			 	 -30px    ;
+	font-family:    	 serif, sans-serif ;
+	font-size: 			 17px     ;
+	font-weight: 		 700      ;
+	color: 				 #B5B5B5  ;
+	transition: 		 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ; 
+
+}
+
+
+#AltreNotizie:hover {
+
+	color: #551A8B ;
+
+}

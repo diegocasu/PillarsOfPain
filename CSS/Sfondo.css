@@ -1,0 +1,104 @@
+
+body {
+
+	background-image: 			url("../Immagini/Sfondo.jpg") ; 
+	background-color: 			#1F1F1F ;
+	background-attachment: 		fixed ;
+	background-size: 			100%  ;
+	-webkit-background-size: 	cover ;
+	-moz-background-size:		cover ;
+	-o-background-size:			cover ; 
+	background-repeat: 			no-repeat;
+	position: 					absolute ;
+	width: 						100% ;
+	height: 					100% ;
+	
+}
+
+
+#Sfondo {
+
+	width: 		1000px ;
+	margin:		0 auto ;
+
+}
+
+
+#LogoPrinc {
+
+	position: 	 relative ;
+	float: 		 left     ;
+	left:		 20px 	  ;
+
+}
+
+
+#LogoPrinc:hover {
+
+	cursor: 	pointer   ; 
+
+}
+
+
+#ManualeUtente {
+
+	position: 			relative ;
+	left:				320px 	 ;
+	top: 				13px     ;
+	color:		 		#B5B5B5  ;
+	font-family: 		serif, sans-serif ;
+	font-weight: 		700 ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ; 
+
+}
+
+
+#ManualeUtente:hover {
+
+	color: 			#551A8B  ;
+
+}
+
+
+.initialButton {
+
+	position: 			relative ;
+	top: 				23px     ;
+	right: 				-330px 	 ;
+	width: 				30px     ;
+	height: 			30px     ;
+	transition: 		all 300ms ease ;
+	-moz-transition: 	all 300ms ease ; 
+  	-o-transition: 		all 300ms ease ; 
+  	-webkit-transition: all 300ms ease ; 
+
+}
+
+
+.initialButton:hover {
+
+	transform: 			scale(1.2) ; 
+  	-moz-transform: 	scale(1.2) ; 
+  	-o-transform: 		scale(1.2) ; 
+  	-webkit-transform: 	scale(1.2) ; 
+  	z-index:	        10 ;
+
+}
+
+a {
+
+	font-family: 		serif, sans-serif ;
+	color:				#B5B5B5 		  ;
+	text-decoration: 	none 			  ;
+
+}
+
+
+.onHover:hover {
+
+	color: 			#551A8B ;
+
+}

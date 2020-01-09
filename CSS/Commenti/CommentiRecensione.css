@@ -1,0 +1,457 @@
+
+#Modulo_InvioCommento {
+
+	position: 	relative ; 
+	width: 		600px    ;
+	height: 	75px 	 ;
+	top:	    32px     ;
+	left: 		193px    ;
+	border-bottom: 1px solid #B5B5B5      ;
+	border-top: 1px solid #B5B5B5         ;
+ 	background-color:   rgba(0,0,0,0.6)	  ;
+	transition: 		height 500ms ease ;
+	-moz-transition: 	height 500ms ease ;	 
+  	-o-transition: 		height 500ms ease ; 
+  	-webkit-transition: height 500ms ease ;
+
+}
+
+
+#CommentsLogo {
+
+	position: relative ;
+	width: 	  30px     ;
+	height:   30px     ;
+	top:	  10px 	   ;
+	left:	  270px    ;
+	cursor:   pointer  ;
+
+}
+
+
+#OpenComments {
+
+	position:	 relative ;
+	left:	     240px 	  ;
+	top:		 -10px 	  ;
+	font-family: serif, sans-serif ;
+	font-size: 	 20px 	  ;
+	color:  	 #B5B5B5  ;
+	font-weight: 900 	  ;
+	cursor:	     pointer  ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ;	 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ;
+
+}
+
+
+#OpenComments:hover {
+
+	color:	#551A8B ;
+
+}
+
+
+.Modulo_DefaultUserImage {
+
+	position: absolute ;
+	width:    44px ;
+	height:   44px ;
+	left:	  20px ;
+	top:	  28px ;
+
+}
+
+
+.Modulo_TestoCommento {
+
+	position: 		   relative ;
+	left: 	  		   80px     ;
+	width: 	 		   500px    ;
+	min-height: 	   50px     ;
+	max-height: 	   200px    ;
+	top:	  		   20px     ;
+	font-size:  	   15px     ; 
+  	overflow: 		   hidden   ;
+  	resize:  		   none     ;
+  	border-radius: 	   4px      ; 
+  	background-color:  rgba(0,0,0,0.6) ;
+  	outline-color: 	   #551A8B  ;
+  	color:			   #B5B5B5  ;
+
+}
+
+
+.Modulo_Istruzioni {
+
+	position: 	   relative ;
+	top:		   5px 	    ;
+	left: 		   80px     ;
+	font-size:     16px 	;
+	color:		   #B5B5B5  ;
+	text-align:    justify  ;
+	font-style:    italic   ;
+	line-height:   21px 	;
+	font-family:   serif, sans-serif ;
+
+}
+
+
+.Modulo_SendCommentField {
+
+	position: 			relative ;
+	width: 				170px    ;
+	top:	  			10px 	 ;
+	left:	  			80px 	 ;
+	border:   			1px 	 ;
+	border-style: 		solid 	 ;
+	border-radius: 		2px 	 ;
+	height:   			25px 	 ;
+	color:	  			#B5B5B5  ;
+	outline-color: 		#551A8B  ;
+	background-color:   rgba(0,0,0,0.8) ;
+
+}
+
+
+.Modulo_Obbligatorio {
+
+	position: relative ;
+	left: 	  300px    ;
+	top:	  -15px    ; 
+	color:	  orange   ;
+
+}
+
+
+.Modulo_Pubblica {
+
+	position: 			relative ;
+	top:	  			20px     ;
+	left:	  			80px     ;
+	border:   			1px      ;
+	border-style: 		solid    ;
+	border-radius: 		2px      ;
+	height:   			30px     ;
+	background-color:   rgba(0,0,0,0.8) ;
+	color:	  			#B5B5B5  ;
+	cursor:   			pointer  ;
+	outline-color: 		#551A8B  ;
+
+}
+
+
+.Modulo_StopComment {
+
+	display:      block    ;
+	position:     relative ;
+	left: 	      260px    ;
+	top:	      -20px    ;
+	font-family:  serif, sans-serif ;
+	font-size:    16px 	   ;
+	color:		  orange   ;
+
+}
+
+
+#InformazioniPubblicazione {
+
+	position: relative ;
+	width: 	  600px    ;
+	height:   250px    ;
+	top:	  15px     ;
+	left: 	  193px    ;
+	background-color: rgba(0,0,0,0.6) ;
+
+}
+
+
+#Pubblicazione_NumeroCommenti {
+
+ 	position:    relative ;
+ 	top:		 21px     ;
+ 	color:	     #B5B5B5  ;
+ 	left: 	     10px     ;
+ 	font-size:   21px     ;
+ 	font-weight: 900 	  ;	
+ 	text-align:  center   ;
+
+}
+
+
+#Avvertenza {
+
+	position: 	   relative ;
+	top:	  	   20px 	;
+	left: 		   12px 	;
+	padding-right: 25px 	;
+	font-size:     16px 	;
+	color:		   #B5B5B5  ;
+	text-align:    justify  ;
+	font-style:    italic   ;
+	line-height:   21px 	;
+	font-family:   serif, sans-serif ;
+}
+
+
+
+/******************************/
+
+#SezioneCommenti {
+
+	position: relative  ;
+	width: 	  600px     ;
+	height:   auto      ;
+	top:	  33px      ;
+	left: 	  193px     ;
+	margin-bottom: 10px ;
+
+}
+
+
+#NessunCommento {
+
+	position: relative ;
+	top:	  -20px    ;
+	width: 	  600px    ;
+	height:   80px     ;
+	background-color: rgba(0,0,0,0.6) ; 
+
+}
+
+
+#AvvisoNessunCommento {
+
+	position:   relative ;
+	top:	    24.5px   ;
+	text-align: center   ;
+	font-size:  27px     ;
+	color:      #B5B5B5  ;
+
+}
+
+
+.CommentoUtente {
+
+	position:    relative  ;
+	width: 	     600px     ;
+	height:      auto      ;
+	background-color: rgba(0,0,0,0.6) ;	
+	margin-top:  13px      ;
+
+}
+
+
+.InformazioniUtente{
+
+	position: 		 relative ;
+	width: 	  		 574px    ;
+	height:   		 21px     ;
+	padding-left: 	 13px 	  ;
+	padding-right: 	 13px 	  ;
+	padding-top:     7px   	  ;
+	padding-bottom:  7px 	  ;
+	border-bottom:   1px solid white ;
+	color:		     #B5B5B5  ;
+	font-size: 		 18px     ;
+	overflow:    	 hidden   ;
+	white-space: 	 nowrap   ; 
+
+}
+
+
+.NomeUtente {
+
+    max-width:         100%     ;
+    white-space:	   nowrap   ;
+    overflow:		   hidden   ;
+    text-overflow:	   ellipsis ;
+    -ms-text-overflow: ellipsis ;
+    float: 	           left 	;
+
+}
+
+
+.TestoCommento {
+
+	position: 		 relative 	;
+	width: 	  		 574px    	;
+	height:   		 auto    	;
+	padding-left: 	 13px 	 	;
+	padding-top:     10px    	;
+	padding-bottom:  10px 	 	;
+	padding-right:   13px    	;
+	word-wrap: 	  	 break-word ;
+	color:		     #B5B5B5    ;
+	font-size: 		 16px       ;
+	line-height:	 21px       ;
+	white-space: 	 pre-line   ;
+
+}
+
+
+.EndComment {
+
+	position: 	  relative ;
+	width: 	  	  587px    ;
+	height:   	  35px     ;
+	padding-left: 13px     ;
+
+}
+
+
+.Upvote {
+
+	position: relative ;
+	width: 	  30px     ;
+	height:   30px     ;
+	top:	  -1px     ;
+	cursor:   pointer  ;
+
+}
+
+
+.VoteResult {
+
+	position:   relative ;
+	width: 	    40px     ;
+	height:     30px     ;
+	top:	    -30px    ;
+	left: 	    30px     ;
+	color:      #B5B5B5  ;
+	font-size:  18px     ;
+	text-align: center   ;
+
+}
+
+
+.Downvote {
+
+	position: relative ;
+	width: 	  30px     ;
+	height:   30px     ;
+	top:	  -65px    ;
+	left: 	  70px     ;
+	cursor:   pointer  ;
+
+}
+
+
+.Reply {
+
+	position: relative ;
+	top:	  -75px    ;
+	left: 	  90px     ;
+	cursor:   pointer  ;
+	transition: 		color 300ms ease ;
+	-moz-transition: 	color 300ms ease ;	 
+  	-o-transition: 		color 300ms ease ; 
+  	-webkit-transition: color 300ms ease ;
+
+}
+
+
+.Reply:hover {
+
+	color:  #551A8B ;
+
+}
+
+
+.PubblicazioneCommento {
+
+	position:  relative ;
+	top:	   -93px    ;
+	left: 	   220px    ;
+	color:     #B5B5B5  ;
+	font-size: 16px 	; 
+
+}
+
+
+.CommentoRisposta {
+
+	position: relative ;
+	width: 	  550px    ;
+	left: 	  50px     ;
+	height:   auto     ;
+	margin-top: 13px   ;
+	background-color: rgba(0,0,0,0.6) ;	
+	
+}	
+
+
+.InformazioniUtenteRisposta{
+
+	position: 		 relative ;
+	width: 	  		 523px    ;
+	height:   		 21px     ;
+	padding-left: 	 13px 	  ;
+	padding-right: 	 13px 	  ;
+	padding-top:     7px   	  ;
+	padding-bottom:  7px 	  ;
+	border-bottom:   1px solid white ;
+	color:		     #B5B5B5  ;
+	font-size: 		 18px     ;
+	overflow:    	 hidden   ;
+	white-space: 	 nowrap   ;
+
+}
+
+
+.ImgReply {
+ 
+ 	position: relative     ;
+	top:	  5px    	   ;
+	left:	  3px    	   ;
+	width: 	  20px 	       ;
+	height:   10px         ;
+	float:    left 	 	   ;
+
+}
+
+
+.OggettoReplica {
+
+	position: 		   relative ;
+	left: 			   5px      ;
+    white-space:	   nowrap   ;
+    overflow:		   hidden   ;
+    text-overflow:     ellipsis ;
+    -ms-text-overflow: ellipsis ;
+
+}
+
+
+.TestoCommentoRisposta {
+
+	position: 		 relative 	;
+	width: 	  		 514px    	;
+	height:   		 auto    	;
+	padding-left: 	 13px 	 	;
+	padding-top:     10px    	;
+	padding-bottom:  10px 	 	;
+	padding-right:   13px    	;
+	word-wrap: 	  	 break-word ;
+	color:		     #B5B5B5    ;
+	font-size: 		 16px       ;
+	line-height:	 21px       ;
+	white-space: 	 pre-line   ;
+
+}
+
+
+.Modulo_RispostaCommento {
+
+	position: 	relative ; 
+	width: 		600px    ;
+	height: 	275px 	 ;
+	top:	    5px      ;
+	left: 		0px      ;
+	margin-bottom: 20px  ;
+	border: 	1px solid #551A8B     ;
+ 	background-color: rgba(0,0,0,0.6) ;
+
+}

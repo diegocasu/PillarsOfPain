@@ -1,0 +1,258 @@
+
+#ContenitoreRicerca {
+
+	position: relative ; 
+	width:    700px    ;
+	height:   auto     ;
+	top:	  117px    ;
+	left:	  150px    ;
+	background-color: rgba(0,0,0,0.6) ;
+	padding-bottom: 66px ;
+	margin-bottom: 5px ;
+
+}
+
+
+#NessunRisultato {
+
+	display: 	 	  inline-block ;
+	position: 	 	  relative     ;
+	width:   	 	  700px 	   ;
+	top:	 	 	  37px 	  	   ;
+	font-size:        28px 	  	   ;
+	font-weight: 	  900 	 	   ;
+	font-family: 	  serif, sans-serif ;
+	color: 		      #B5B5B5  	   ;
+	margin:	          0px   	   ;
+	text-align: 	  center 	   ;
+
+}
+
+
+/* Barra di ricerca interna */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {  display: none ; }
+
+
+#innerSearchBox {
+
+	position: 		  relative ;
+	top:  	  		  30px     ;
+	left: 	  		  250px    ;
+	width: 	 		  200px    ;
+	height:   		  30px     ;
+    border-radius:    8px	   ;
+    background-color: #1C1C1C  ;
+    box-shadow: 	  4px 3px 2px rgba(0,0,0,0.9) inset ;
+
+}
+
+
+#innerSearchBar {
+
+	position: 		  relative ;
+	top:			  -85px    ;
+	width: 		      170px    ;
+	height: 		  29px     ;
+    font-size:     	  16px     ;
+    font-style:    	  oblique  ;
+    font-family:   	  serif, sans-serif ;
+    color:		   	  #B5B5B5  ;
+    border:        	  0 none   ;
+    padding-left:  	  15px 	   ;
+    padding-bottom:   0		   ;
+    outline: 	   	  none     ;
+    border-radius:    8px 0px 0px 8px ;
+    background-color: #1C1C1C  ;
+    box-shadow: 	  2px 3px 2px rgba(0,0,0,0.9) inset ;
+
+}
+
+
+#innerSearchButton {
+
+	position: 		  absolute ;
+	width: 	  		  15px 	   ;
+	height:   		  15px 	   ;
+	top:	  		  8px      ;
+	left:		      175px    ;
+	border:   		  0 	   ;
+	outline: 		  none     ;
+	z-index: 		  10 	   ;
+	cursor: 		  pointer  ;
+	background-image: url("../../Immagini/Search.png") ;
+	background-color: inherit  ;
+
+}
+
+
+/* Elementi trovati */
+
+.ContenitoreTrovato {
+
+	position: relative ; 
+	width:    700px    ;
+	height:   200px    ;
+	top:	  65px     ;
+	
+}
+
+
+.ImmagineTrovato {
+
+	position: 		absolute ;
+	width: 	  		150px    ;
+	height:   		150px    ; 
+	left:	  		15px     ;
+	top: 	 	    20px     ;
+	border-radius:	5px      ; 
+	box-shadow: 	rgba(0,0,0,0.6) 2px 2px 2px 2px  ;
+
+}
+
+
+.TitoloTrovato {
+
+	position: 	 	    absolute ;
+	top:			    30px 	 ;
+	left: 			    180px  	 ;
+	width: 			    500px 	 ;
+	height: 		    auto     ;
+	font-size:          20px 	 ;
+	font-weight: 	    900  	 ;
+	color: 		        #B5B5B5  ;	 	   
+	font-family: 	    serif, sans-serif ;
+	transition: 		color 500ms ease  ;
+	-moz-transition: 	color 500ms ease  ; 
+  	-o-transition: 		color 500ms ease  ; 
+  	-webkit-transition: color 500ms ease  ;
+
+}
+
+
+.AutoreTrovato {
+
+	position: 	 	    absolute ;
+	top:			    105px 	 ;
+	left: 			    180px  	 ;
+	width: 			    500px 	 ;
+	height: 		    auto     ;
+	font-size:          18px 	 ;
+	font-style: 		italic   ;
+	color: 		        #B5B5B5  ;	 	   
+	font-family: 	    serif, sans-serif ;
+	transition: 		color 500ms ease  ;
+	-moz-transition: 	color 500ms ease  ; 
+  	-o-transition: 		color 500ms ease  ; 
+  	-webkit-transition: color 500ms ease  ;
+
+}
+
+
+.TitoloTrovato:hover, .AutoreTrovato:hover {
+
+	color: #551A8B ;
+
+}
+
+
+.DataPubblicazione {
+
+	position:   absolute ;
+	top:		140px    ;
+	left:		180px    ;
+	color: 		#B5B5B5  ;	
+	font-size:  18px 	 ;
+
+}
+
+
+.SeparatoreRicerca {
+
+	position: 		  relative ;
+	width: 	  		  700px    ;
+	height:   		  1px      ;
+	top:		      65px 	   ;
+	background-color: #B5B5B5  ;
+
+}
+
+
+#ContenitorePulsanti {
+
+	position: relative ;
+	width: 	  700px    ;
+	height:   50px     ;
+
+}
+
+
+#ZonaPulsanti {
+
+	position: relative ;
+	width: 	  400px    ;
+	height:   50px     ;
+	top:	  65px     ;
+	left:	  150px    ;
+
+}
+
+
+.PulsantePagina {
+
+	position: 		  absolute ;
+	width: 	  		  100px    ;
+	height:   		  30px     ;
+	top:	  		  10px     ;
+	text-align: 	  center   ; 
+	background-color: #B5B5B5  ;
+	border-radius:    7px ;
+	
+}
+
+
+#PulsantePrecedente {
+
+	left: 10px ;
+
+}
+
+
+#PulsanteSuccessiva {
+
+	left: 290px ;
+
+
+}
+
+
+.TipoPulsante {
+
+	position: relative ;
+	top:	  6px 	   ;
+	color:    #551A8B  ;
+
+}
+
+
+#SceltaPagina {
+
+	position: absolute ;
+	width: 	  60px    ;
+	height:   30px     ;
+	left:	  170px    ;
+	top:	  10px     ;
+	background-color: #B5B5B5  ;
+
+}
+
+
+#SceltaPagina option {
+
+	position: relative ; 
+	text-align: center ;
+
+}

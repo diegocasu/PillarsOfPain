@@ -1,0 +1,555 @@
+
+/************    CREAZIONE   **************************
+************* IFRAME PRINCIPALE    ******************/
+
+
+#ContenitoreframePrincipale {
+
+	position: relative ;
+	width:    1000px   ;
+	height:   450px    ;
+	left: 	  -6px     ;
+	top:	  120px    ;
+
+}
+
+
+#MainIframe {
+
+	position: relative  ;
+	top: 	  -90px     ;
+	width:	  1000px 	;
+	height:   450px 	;
+	border:   0px	    ; 
+	z-index: -1 		;
+
+}
+
+
+.circle {
+
+	position: 			 relative ;
+	width: 				 30px ;
+	height: 			 30px ;
+	left:				-50px ;
+	border-radius: 		 15px ;
+	background-color:	 #B5B5B5 ;
+	box-shadow: 		 rgba(0,0,0,0.4) 1px 0px 1px 1px inset ;
+	transition: 		 background-color 300ms ease ;
+	-moz-transition: 	 background-color 300ms ease ; 
+  	-o-transition: 		 background-color 300ms ease ; 
+  	-webkit-transition:  background-color 300ms ease ; 
+
+}
+
+
+.circle:hover {
+
+	cursor: pointer ;
+}
+
+
+#circle1 {
+
+	top: -400px ;
+
+}
+
+
+#circle2 {
+
+	top: -385px ;
+
+}
+
+
+#circle3 {
+
+	top: -370px ;
+
+}
+
+
+#circle4 {
+
+	top: -355px ;
+
+}
+
+
+#IframeDescription {
+
+	position: 		relative ;
+	height: 		130px    ;
+	width: 			400px    ;
+	top:			-360px   ;
+	left:			585px    ;
+	border-radius: 	10px     ;
+   	background: 	rgba(0,0,0,0.6) ;
+   	border: 		1px 	 ;
+   	border-style: 	solid 	 ;	
+   	border-color: 	#2F2F2F  ;
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ; 
+   	z-index: 		10 ;
+
+}
+
+
+.DescrizioneIframe {
+
+	position: 			 relative  ;
+	text-align: 		 center    ;
+	font-family: 	 	 serif, sans-serif ;
+	color: 			 	 #B5B5B5   ;
+	font-weight: 		 900 	   ; 
+	transition: 	 	 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ; 
+
+}
+
+
+#IframeCaption {
+	
+	display: 	   block 	  ;
+	font-size: 	   30px       ;	
+	top: 	   	   -20px      ;
+	text-transform: uppercase ;
+	margin-top: 	1em ;
+    margin-bottom:  1em ;
+    margin-left: 	0   ;
+    margin-right: 	0   ;
+}
+
+
+#IframeText {
+
+	font-size: 20px  ;
+	top: 	   -33px ;
+
+}
+
+
+#IframeCaption:hover,#IframeText:hover {
+
+	color : #551A8B ;
+	cursor: pointer ;
+
+}
+
+
+#TipoArticolo {
+
+	position: 		relative ;
+	height: 		28px     ;
+	width: 			120px    ;
+	top: 			-537px   ;
+	left: 			853px    ;
+    background:     #310062  ;
+   	border: 		1px 	 ;	
+   	border-color: 	#2F2F2F  ;
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ;
+   	z-index:		-1 ;
+
+}
+
+
+#TipologiaArticolo {
+
+	position: 	 relative ;
+	font-size: 	 19px     ;
+	text-align:  center   ;
+	top: 		 2px 	  ;
+	font-family: serif, sans-serif ;
+	color: 		 #B5B5B5  ;
+	font-weight: 900      ;
+
+}
+
+
+.FadeOut {
+
+	position: 			relative  ;
+	width: 				333px     ;
+	height: 		    210px     ;
+	border:   			0px	      ; 
+	z-index:  			0 	      ;
+	background-color:   rgba(0,0,0,0.8) ;
+	transition: 		background-color 700ms ease ;
+	-moz-transition: 	background-color 700ms ease ; 
+  	-o-transition: 		background-color 700ms ease ; 
+  	-webkit-transition: background-color 700ms ease ; 
+
+}
+
+
+#EffettoIframePrincipale {
+
+	top: 	  			-843px    ;
+	width:	  			1000px 	  ;
+	height:   			450px 	  ;
+	
+}
+
+
+#ContenitoreEffettoInterviste {
+
+	position: relative ;
+	top: 	  -835px   ;
+	z-index:  -1  	   ;
+
+}
+
+
+#ContenitoreEffettoArticoli {
+
+	position: relative ;
+	top: 	  -1045px  ;
+	left:	  333px    ;
+	z-index:  -1  	   ;
+
+}
+
+
+#ContenitoreEffettoLive {
+
+	position: relative ;
+	top: 	  -1255px  ;
+	left:	  666px    ;
+	z-index:  -1  	   ;
+
+}
+
+
+#EffettoLive {
+
+	width: 	  338px    ;
+	height:   211px    ;
+
+}
+
+
+
+/*************  FINE CREAZIONE ************************
+************* IFRAME PRINCIPALE    ******************/
+
+
+
+/*************  CREAZIONE ************************
+************* IFRAME SECONDARI    ******************/
+
+#ContenitoreIframeSecondari {
+
+	position: relative ;
+	top:	  115px    ;
+	left:	  -6px     ;
+	width:    1000px   ;
+	height:   262px    ;
+
+}
+
+
+#SezioniPrincipali {
+
+	position:		relative; ;
+	width: 			1005px 	  ;
+	height: 		50px   	  ;
+	left:			-3px 	  ;
+	border-radius: 	5px 	  ;
+	border:			1px 	  ;
+	border-style: 	solid 	  ;
+	border-color: 	black     ;	
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ;
+   	z-index:		-3 ;
+
+}
+
+
+.secondaryIframe {
+
+	position: 		relative ;
+	width: 			333px  ;
+	height: 		210px  ;
+	top:			-5px ;
+	border: 		0 ;
+	border-style: 	solid ;
+	border-color: 	black ;
+	z-index: 		-4 ;
+
+}
+
+
+#firstMiniIframe  {
+
+	left: 0px ;
+
+}
+
+
+#secondMiniIframe {
+
+	left: -4px  ;
+
+}
+
+
+#thirdMiniIframe {
+
+	width: 			338px  ;
+	height: 		210px  ;
+	top:			-218px ;
+	left:			666px  ;
+	
+}
+
+
+.SezioniIframe {
+
+	position: 			relative ;
+	top:	  			-447px   ;
+	font-size: 			27px     ;
+	font-family: 		serif, sans-serif ;
+	color: 				#B5B5B5  ;
+	font-weight: 		500      ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ; 
+
+}
+
+
+#SezioneInterviste {
+		
+	left: -250px ;
+
+}
+
+
+#SezioneArticoli {
+
+	left: -77px ;
+	
+}
+
+
+#SezioneLiveReport {
+
+	left:	110px ;
+	width: 	180px ;
+	height:	32px  ;
+
+}
+
+
+.SezioniIframe:hover {
+
+	color : #551A8B ;
+	cursor: pointer ;
+
+}
+
+
+.Microcircle {
+
+	position: 			 relative ;
+	width: 				 24px ;
+	height: 			 24px ;
+	border-radius: 		 12px ;
+	background-color:	 #B5B5B5 ;
+	box-shadow: 		 rgba(0,0,0,0.4) 1px 0px 1px 1px inset ;
+	z-index:             0 ;
+	
+}
+
+
+.Microcircle:hover {
+
+	cursor: pointer ;
+
+}
+
+
+#circle5 {
+
+	top:  -259px ; 
+	left: 110px  ;
+
+}
+
+
+#circle6 {
+
+	top:  -283px ;
+	left: 150px  ;
+}
+
+
+#circle7 {
+
+	top:  -307px ;
+	left: 190px ;
+
+}
+
+
+#circle8 {
+
+	top:  -331px ;
+	left: 443px  ;
+
+}
+
+
+#circle9 {
+
+	top:  -355px ;
+	left: 483px ;
+}
+
+
+#circle10 {
+
+	top:  -379px ;
+	left: 523px  ;
+
+}
+
+
+#circle11 {
+
+	top:  -403px ;
+	left: 776px  ;
+
+}
+
+
+#circle12 {
+
+	top:  -427px ;
+	left: 816px  ;
+
+}
+
+
+
+#circle13 {
+
+	top:  -451px ;
+	left: 856px  ;
+
+}
+
+
+.MiniIframeDescription {
+
+	position:  		relative ;
+	width: 			332px 	 ;
+	height: 		50px     ;
+	border-radius: 	0px 0px 10px 10px  	;
+	border-left: 	1px      ;   	
+   	border-right: 	1px      ;
+   	border-bottom:  0px      ;
+   	border-top: 	0px      ;
+   	border-style: 	solid    ;	
+   	border-color: 	black    ;
+   	background: 	rgba(0,0,0,0.6) ;
+   	z-index: 		10 ;
+
+}
+
+#IframeDescriptionInt {
+
+	top:  -652px ;
+	
+}
+
+
+#IframeDescriptionArt {
+
+	top:  -718px ;
+	left: 332px  ;
+
+}
+
+
+#IframeDescriptionLive {
+
+	width: 336px ;
+	top:  -785px ;
+	left: 666px  ;
+
+}
+
+
+#IframeCaptionInt {
+
+	position: 			 relative ;
+	text-align: 		 center   ;
+	width: 				 331px    ;
+	height: 			 50px     ;
+	top: 				 5px      ; 
+	font-size: 	 		 20px     ;
+	font-family: 		 serif, sans-serif ;
+	color: 				 #B5B5B5  ;
+	font-weight:		 700      ;
+	transition: 		 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ;
+  	margin:  			 0px ;
+	padding: 			 0px ;
+	border:  			 0px ;
+
+}
+
+
+#IframeCaptionArt {
+
+	position: 			 relative ;
+	text-align: 		 center   ;
+	width: 				 331px 	  ;
+	height: 			 50px 	  ;
+	top: 				 4px 	  ;
+	font-size: 	 		 20px     ;
+	font-family: 		 serif, sans-serif ;
+	color: 				 #B5B5B5  ;
+	font-weight:		 700 	  ;
+	transition: 		 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ;
+
+}
+
+
+#IframeCaptionLive	{
+
+	position: 			 relative ;
+	text-align: 		 center   ;
+	width: 				 331px    ;
+	height: 			 50px     ;
+	top: 				 5px 	  ;
+	font-size: 	 		 20px     ;
+	font-family: 		 serif, sans-serif ;
+	color: 				 #B5B5B5  ;
+	font-weight:		 700      ;
+	transition: 		 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ; 
+
+}
+
+
+
+#IframeCaptionInt:hover,#IframeCaptionArt:hover,#IframeCaptionLive:hover {
+
+	cursor: pointer ;
+	color:  #551A8B ;
+
+}
+
+/************* FINE CREAZIONE ************************
+************* IFRAME SECONDARI    ******************/

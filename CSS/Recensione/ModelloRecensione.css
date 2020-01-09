@@ -1,0 +1,410 @@
+
+#TitoloAlbum {
+
+	position: 	relative ;
+	width:    	600px    ;
+	height:   	40px 	 ;
+	top: 	    97px 	 ;
+	left:	  	193px 	 ;	
+	background: rgba(0,0,0,0.6)  ;
+
+}
+
+
+#Titolo  {
+
+	display: 	 	  inline-block ;
+	position: 	 	  relative     ;
+	width:   	 	  600px 	   ;
+	height:  		  auto  	   ;
+	top:	 	 	  32px 		   ;
+	left:			  193px        ;
+	font-size:        24px 	  	   ;
+	font-weight: 	  900 	 	   ;
+	font-family: 	  serif, sans-serif ;
+	color: 		      #B5B5B5  	   ;
+	margin:	          0px   	   ;
+	padding-bottom:   25px   	   ;
+	padding-top:      5px   	   ;
+	background-color: rgba(0,0,0,0.6) ;
+	text-align: 	  center 	   ;
+
+}
+
+
+#CorpoRecensione {
+
+	position: 	 relative ;
+	width: 	  	 600px    ;
+	height:   	 auto     ;
+	top:		 32px     ;
+	left:	 	 193px    ;
+	background:  rgba(0,0,0,0.6) ;
+	padding-bottom:	 115px ;
+
+}
+
+
+#TestoRece {
+
+	position:      relative ;
+	color:	  	   #B5B5B5  ;
+	top:  	       10px     ;
+	left:		   12px     ;
+	text-align:    justify  ;
+	padding-right: 25px     ;
+	font-size: 	   17px     ;
+
+}
+
+
+#TestoRece p{
+
+	font-weight: normal ;
+
+}
+
+#TestoRece h1{
+
+	font-size: 	 17px   ;
+	font-weight: 700    ;
+	display:     inline ;
+
+}
+
+
+cite {
+
+	font-size: 16px ;
+
+}
+
+
+#Autore {
+
+	position: relative ;
+	width: 	  600px    ;
+	height:   40px     ;
+	top: 	  10px     ;
+
+}
+
+
+#NomeAutore {
+
+	text-align:         center  ;
+	font-family:        serif, sans-serif ;
+	font-size:          18px    ;
+	color:		        #B5B5B5 ;
+	margin:	            0px     ;
+
+}
+
+
+#NomeAutore :hover {
+
+	color: #551A8B ;
+
+}
+
+
+#LinkAutore {
+
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ;
+
+}
+
+
+#VotoRecensore {
+
+	position: absolute ;
+	width:    300px    ;
+	height:   100px    ;
+	top:	  30px     ;
+
+}
+
+
+#VotoUtenti {
+
+	position: absolute ;
+	width:    300px    ;
+	height:   100px    ;
+	top:	  30px     ;
+	left:	  300px    ;
+
+} 
+
+
+.Voto_Recensore {
+
+	position:     relative ;
+	top:	  	  -10px    ;
+	left: 	  	  0px      ;
+	width: 	  	  auto     ;
+	height:   	  20px     ;
+	text-align:   center   ;
+	font-family:  serif, sans-serif ;
+	font-size:    16px     ;
+	color:		  #B5B5B5  ;
+
+}
+
+
+.Voto {
+
+	position:    relative ;
+	top:	     -10px    ;
+	width: 	     300px    ;
+	text-align:  center   ; 
+	font-family: serif, sans-serif ;
+    font-size:   30px     ;
+    font-weight: 500      ; 
+    color: 		 #B5B5B5  ;
+
+}
+
+
+#DirittoAlVoto {
+
+	position: 			absolute ;
+	top: 	  			65px	 ;
+	left:	  			200px 	 ;
+	color:	 	        #B5B5B5  ; 
+	cursor:  			pointer  ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ; 
+
+}
+
+
+#DirittoAlVoto:hover {
+
+	color: #551A8B ;
+
+}
+
+
+/***** Immagini allegate alla recensione *****/
+
+
+#ContenitoreImmagini {
+
+	position: absolute ;
+	top:	  160px    ;
+
+}
+
+
+#ImmaginiRecensione {
+
+	position:   relative ;
+	width: 	    200px    ;
+	height:     auto     ;
+	top:	    20px     ;
+	left:	    -6px     ;
+	background: inherit  ;
+
+}
+
+
+.ImmagineRece {
+
+	position: 		relative ;
+	width: 	  		190px    ;
+	height:   		auto     ; 
+	left:	  		0px      ;
+	top: 	 	   -5px      ;
+	border-radius:	5px      ;
+	box-shadow: rgba(0,0,0,0.6) 2px 2px 2px 2px  ;
+
+}
+
+
+.DescrizioneImg {
+
+	position: 	  relative ;
+	width:    	  190px    ;
+	height:   	  auto     ;
+	left:	  	  5px      ;
+	top:      	  -10px    ;	
+	text-align:   center   ;
+	font-family:  serif, sans-serif ;
+	font-size:    16px     ;
+	color:		  #B5B5B5  ;
+
+}
+
+
+/***** Informazioni allegate alla recensione *****/
+
+
+#ContenitoreInformazioni {
+
+	position: absolute ;
+	top:	  180px    ;
+
+}
+
+
+#InformazioniAlbum {
+
+	position: relative ;
+	width: 	  200px    ;
+	height:   auto     ;
+	top:	  15px 	   ;	
+	left:	  794px    ;
+
+}
+
+
+.info {
+
+	position: 	  relative ;
+	width:    	  180px    ;
+	height:   	  20px     ;
+	left: 	  	  10px     ;
+	text-align:   center   ;
+	border-style: solid    ;
+	border-color: #B5B5B5  ;
+	font-size:    16px     ;
+	font-weight:  normal   ; 
+	color: 		  #B5B5B5  ;
+
+}
+
+
+#INFO {
+
+	top: 	  	  -35px       ;
+	border:	   	  2px  solid  ;
+	font-size:	  18px        ;
+
+}
+
+
+#AlbumCover {
+
+	position: 	   relative ;
+	width: 	  	   180px    ;
+	height:   	   180px    ;
+	left:	  	   12px 	;
+	top: 	  	   -10px    ;
+	border:	   	   1px      ;
+	border-style:  solid    ;
+	border-color:  black    ;
+	border-radius: 8px 	    ;
+	box-shadow:    rgba(0,0,0,0.4) 2px 2px 2px 2px ;
+
+}
+
+
+#Label {
+
+	top: 5px ;
+	height: auto ;
+
+}
+
+
+#Genere {
+
+	top: 10px ;
+	height: auto ;
+
+}
+
+
+#Tracklist {
+
+	height:   	  auto     ;
+	top: 	  	  18px     ;
+	font-size: 	  14px 	   ;
+	white-space:  pre-wrap ;
+
+}
+
+
+#Lineup {
+
+	height:  	  auto     ;
+	top:	  	  28px     ;
+	font-size:    14px     ;
+	white-space:  pre-wrap ;
+	
+}
+
+
+/* Altre recensioni dello stesso gruppo */
+
+
+#AltreRecensioni {
+
+	top:	   50px ;
+	font-size: 18px ;
+
+}
+
+
+.Altre_Recensito {
+
+	position:       relative ;
+ 	width: 	        180px    ;
+ 	height:         auto     ;
+ 	left: 	        10px     ;
+ 	top:	        60px     ;
+ 	border-style:   solid    ;
+	border-color:   #B5B5B5  ;
+	margin-bottom:  10px     ;
+ 	background:     rgba(0,0,0,0.3) ;
+
+}
+
+
+.Altre_Cover {
+
+	position: 	   relative ;
+	width:    	   80px     ;
+	height:   	   80px     ;
+	top:		   10px     ;
+	left:	       50px     ;
+	border-radius: 5px      ;
+	cursor:        default  ;
+
+}
+
+
+.Altre_Band {
+
+	position: relative ;
+	top:	  10px     ;
+	height:   auto     ;
+
+}
+
+
+.Altre_Descrizione {
+
+	display:     		block 	   ;
+	position:    		relative   ;
+	text-align:  		center     ;
+	font-size:   		17px       ;
+	word-wrap:   		break-word ;
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ; 
+
+}
+
+
+.Altre_Descrizione:hover {
+
+	color: #551A8B ;
+	
+}

@@ -1,0 +1,251 @@
+
+#Staff {
+
+	position: 			relative ;
+	top:				90px     ;
+	left:	   	 	 	-6px     ;
+	width: 	  			1000px   ;
+	height:   			1900px   ;
+	background-color: 	rgba(0,0,0,0.6) ;
+
+}
+
+
+.ContRedCaption {
+
+	position: 		relative ;
+	top: 	  		10px 	 ;
+	left:	  		20px 	 ;
+	font-family: 	serif, sans-serif ;
+	font-size: 		30px 	 ;
+	font-weight:	900 	 ;
+	color:	 		#B5B5B5  ;
+
+}
+
+
+.ContRedText {
+
+	position:	    relative ;
+	left:			20px 	 ;
+	width: 			900px 	 ;
+	font-family: 	serif, sans-serif ;
+	font-size: 		20px 	 ;
+	font-weight:	300  	 ;
+	color:	 		#B5B5B5  ;
+}
+
+
+#listaRedattori {
+
+	position: absolute ;
+	top: 230px 		   ;
+
+}
+
+
+li {
+
+	position: relative ;
+}
+
+
+.noStyleType {
+
+	list-style-type: none ;
+
+}
+
+
+.TipoRedazione {
+
+	font-family: 	serif, sans-serif ;
+	font-size: 		22px 	;
+	font-weight:	700 	;
+	color:	 		#B5B5B5 ;
+
+}
+
+
+#GeneriAncient {
+
+	position: 			absolute ;
+	width:    			500px    ;
+	height:   			100px    ;
+	left: 	  			400px    ;
+	top: 	  			-30px    ;
+	background-color: 	rgba(0,0,0,0.7) ;
+
+
+}
+
+
+#GeneriDeath {
+
+	position: 			absolute ;
+	width:    			500px 	 ;
+	height:   			80px 	 ;
+	left: 	  			400px 	 ;
+	top: 	  			-30px 	 ;
+	background-color: 	rgba(0,0,0,0.7) ;
+
+}
+
+
+#GeneriBlack {
+
+	position: 			absolute ;
+	width:    			300px 	 ;
+	height:   			60px 	 ;
+	left: 	  			400px 	 ;
+	top: 	  			-20px 	 ;
+	background-color: 	rgba(0,0,0,0.7) ;
+
+}
+
+
+#GeneriWeb {
+
+	position: 			absolute ;
+	width:    			500px 	 ;
+	height:   			80px 	 ;
+	left: 	  			400px 	 ;
+	top: 	  			-30px 	 ;
+	background-color: 	rgba(0,0,0,0.7) ;
+
+}
+
+
+.Generi {
+
+	position: 		relative ;
+	left: 	  		10px 	 ;
+	width: 			500px 	 ;
+	height: 		100px 	 ;
+	font-family: 	serif, sans-serif ;
+	font-size: 		17px 	 ;
+	font-weight:	300 	 ;
+	color:	 		#B5B5B5  ;
+
+}
+
+
+.Personale {
+
+	font-family: 		 serif, sans-serif ;
+	font-size: 			 19px 	 ;
+	font-weight:		 300 	 ;
+	color:	 			 #B5B5B5 ;
+	transition: 		 color 500ms ease ;
+	-moz-transition: 	 color 500ms ease ; 
+  	-o-transition: 		 color 500ms ease ; 
+  	-webkit-transition:  color 500ms ease ; 
+
+}
+
+
+.Ruolo {
+
+	font-family: 	serif, sans-serif ;
+	font-size: 		20px	;
+	font-weight:	700 	;
+	color:	 		#B5B5B5 ;
+
+}
+
+
+ul a:hover {
+
+	color: #551A8B ;
+
+}
+
+
+#ContenitoreConclusivoRedazione {
+
+	position:  relative ;
+	top:	   90px     ;
+	left: 	   -6px 	;
+
+}
+
+
+#ContattiConclusivo {
+
+	position:		relative ;
+	width: 			1005px 	 ;
+	height: 		50px   	 ;
+	top: 			-25px    ;
+	left:			-6px 	 ;
+	border-radius: 	5px      ;
+	border:			1px      ;
+	border-style: 	solid    ;
+	border-color: 	black    ;	
+   	box-shadow: 	rgba(0,0,0,1) 1px 1px 1px 1px inset ;
+   	z-index:		6 ;
+
+}	
+
+
+#ContattiFinale {
+
+	position: 			relative ;
+	width:    			1000px   ;
+	height:  			499px    ; 
+	top:      			-30px    ;
+	background-color: 	rgba(0,0,0,0.6) ;
+
+}
+
+
+#CommentiUltimiRecensioni {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;
+	top:  	    -53px    ;
+	left: 	    0px      ;
+	font-size:  20px     ;
+	color: 		#B5B5B5  ;
+    z-index:    10 ;
+
+}
+
+
+#CommentiUltimiNotizie {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;	
+	top:  	    -53px    ;
+	left: 	    333px    ;
+	font-size:  20px     ;
+	color: 		#B5B5B5  ;
+    z-index:    10 ;
+
+}
+
+
+#CommentiUltimiSpeciali {
+
+	position:   absolute ;
+	width: 	    333px    ;
+	text-align: center   ;
+	top:  	    -53px    ;
+	left: 	    -333px   ;
+	font-size:  20px     ;
+	color: 		#B5B5B5  ;
+    z-index:    10 		 ;
+
+}
+
+
+#Contattifooter {
+
+	position: relative ;
+	width: 	  1000px   ;
+	height:   50px     ;
+	top:	  60px     ;
+	left: 	  -7px     ;
+
+}

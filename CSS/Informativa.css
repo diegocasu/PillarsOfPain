@@ -1,0 +1,72 @@
+
+#ContenitoreInformativa {
+
+	position: relative   ;
+	top:	  98px       ;
+	left:     -5px       ;
+	width: 	  960px      ;
+	height:   auto       ;
+	background-color: rgba(0,0,0,0.6) ;
+	padding-left:   20px ;
+	padding-right:  20px ;
+	padding-bottom: 30px ;
+
+}
+
+
+#InformativaPrivacy {
+
+	position: 	 relative ;
+	top:	  	 -40px    ;
+	font-family: serif, sans-serif ;
+	color:       #B5B5B5  ;
+	margin: 	 0 		  ;
+	font-size:   32px	  ;
+
+}
+
+
+#InformativaCookie {
+
+	position: 	 relative ;
+	top:	  	 -20px    ;
+	font-family: serif, sans-serif ;
+	color:       #B5B5B5  ;
+	margin: 	 0 		  ;
+	font-size:   32px	  ;
+	margin-bottom: 40px   ;
+
+}
+
+
+.ContenutoInformativa {
+
+	position: relative  ;
+	top:	  -20px     ;
+	font-family: serif, sans-serif ;
+	color:    #B5B5B5   ;
+	text-align: justify ;
+	font-size:  18px    ;
+
+
+}
+
+
+#DisabilitaCookie {
+
+	position: 	 relative ;
+	top:	  	 -20px     ;
+	font-family: serif, sans-serif ;
+	color:       #B5B5B5  ;
+	margin: 	 0 		  ;
+	font-size:   23px	  ;
+
+
+}
+
+
+.ContenutoInformativa a {
+
+  color: #551A8B  ;
+
+}

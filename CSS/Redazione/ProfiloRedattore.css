@@ -1,0 +1,298 @@
+
+#ProfiloRedattore {
+
+	position: 			relative ;
+	width:    			1000px   ;
+	height:   			auto     ;
+	top:			    117px    ;
+	left: 			    -6px     ;
+	background-color: 	rgba(0,0,0,0.6) ;
+}
+
+
+ #Info {
+
+ 	position:  relative ;
+ 	width: 	   1000px   ;
+ 	height:    280px    ;
+
+}
+
+
+#IMG {
+
+	position: relative ;
+	width: 	  170px    ;
+	height:   210px    ;
+	top: 	  -70px    ;
+	left: 	  15px     ;
+}
+
+
+ #NomeRedattore {
+
+ 	position: 	  relative ;
+ 	left: 		  215px    ;
+ 	top:		  -330px   ;
+ 	font-family:  serif, sans-serif ;
+ 	font-size: 	  22px     ;
+ 	font-weight:  700      ;
+ 	color:	  	  #B5B5B5  ; 
+
+}
+
+
+#Ruolo {
+
+ 	position: 		relative ;
+ 	top:		    -285px   ;
+ 	left: 	  		560px    ;
+ 	width: 	  		150px    ;
+ 	height:   		25px 	 ;		
+ 	background:  	#B5B5B5  ;
+ 	border-radius:  5px 	 ;
+}
+
+
+#ruolo {
+
+ 	text-align:   center ;
+ 	font-family:  serif, sans-serif ;
+ 	font-size: 	  19px   ;
+ 	font-weight:  900 	 ;
+ 	color:	  	  black  ;
+
+}
+
+
+.CampoInfo {
+
+ 	position:     relative ;
+ 	left:     	  215px    ;
+ 	top: 	  	  -320px   ;
+ 	font-family:  serif, sans-serif ;
+ 	font-size: 	  18px     ;
+ 	font-weight:  900      ;
+ 	color:	  	  #B5B5B5  ;
+}
+
+
+#SeparatoreInfo {
+
+ 	position:		  relative ;
+ 	top: 	 		  -10px    ;
+ 	left:	 	 	  -3px 	   ;
+ 	width: 	 		  1003px   ;
+ 	height:  		  20px 	   ;
+ 	border:			  1px 	   ;
+ 	border-radius:    5px 	   ;	
+ 	border-style:  	  solid    ;
+ 	border-color:     black    ;
+ 	box-shadow: 	  rgba(0,0,0,0.5) 1px 1px 1px 1px inset ;
+
+}
+
+
+#GruppiPreferiti {
+
+	position: relative ;
+	height:   auto     ;
+	top: 	  -20px    ;
+
+}
+
+
+.GCaption {
+
+ 	position: 	  relative ;
+ 	left: 		  15px 	   ;
+ 	top: 	      5px 	   ;
+ 	font-family:  serif, sans-serif ;
+ 	font-size: 	  22px 	   ;
+ 	font-weight:  700 	   ;
+ 	color:	  	  #B5B5B5  ; 
+
+}
+
+
+.ListaG {
+
+	position:     relative ;
+	left: 		  15px	   ;
+ 	top: 	      5px 	   ;
+ 	font-family:  serif, sans-serif ;
+ 	font-size: 	  18px 	   ;
+ 	font-weight:  900 	   ;
+ 	color:	  	  #B5B5B5  ;  
+
+}
+
+
+#SeparatoreG {
+
+	position:		  relative ;
+ 	left:	 	 	  -3px 	   ;
+ 	width: 	 		  1003px   ;
+ 	height:  		  20px 	   ;
+ 	border:			  1px 	   ;
+ 	border-radius:    5px 	   ;
+ 	border-style:  	  solid    ;
+ 	border-color:     black    ;
+ 	box-shadow: 	  rgba(0,0,0,0.5) 1px 1px 1px 1px inset ;
+
+}
+
+
+#GeneriPreferiti {
+
+	position: relative ;
+	width:    1000px   ;
+	height:   auto     ;
+
+}
+
+
+#SeparatorePreferiti {
+
+	position:		  relative ;
+ 	top: 	 		  10px     ;
+ 	left:	 	 	  -3px     ;
+ 	width: 	 		  1003px   ;
+ 	height:  		  20px 	   ;
+ 	border:			  1px 	   ;
+ 	border-radius:    5px 	   ;
+ 	border-style:  	  solid    ;
+ 	border-color:     black    ;
+ 	box-shadow: 	  rgba(0,0,0,0.5) 1px 1px 1px 1px inset ;
+
+}
+
+
+#Interessi {
+
+	position: relative ;
+	width:    1000px   ;
+	height:   auto     ;
+
+}
+
+
+#SeparatoreInteressi {
+
+	position:		  relative ;
+ 	top: 	 		  10px     ;
+ 	left:	 	 	  -3px     ;
+ 	width: 	 		  1003px   ;
+ 	height:  		  20px 	   ;
+ 	border:			  1px 	   ;
+ 	border-radius:    5px 	   ;
+ 	border-style:  	  solid    ;
+ 	border-color:     black    ;
+ 	box-shadow: 	  rgba(0,0,0,0.5) 1px 1px 1px 1px inset ;
+ 	
+}
+
+
+#Contributo {
+
+	position: relative ;
+	width:    1000px   ;
+	height:   auto     ;
+	padding-bottom: 10px ;
+
+}
+
+
+.NomeContributo {
+
+	position:     relative ;
+ 	left:     	  15px     ;
+ 	top: 	  	  8px 	   ;
+ 	font-family:  serif, sans-serif ;
+ 	font-size: 	  18px 	   ;
+ 	font-weight:  900 	   ;
+ 	color:	  	  #B5B5B5  ; 
+
+ }
+
+
+ #ProfiloFooter {
+
+	position: relative ;
+	width: 	  1000px   ;
+	height:   50px 	   ;
+	top:	  115px    ;
+	left: 	  -7px     ;
+	margin:   0 auto   ;
+
+}
+
+
+.VisualizzaPulsante {
+
+	position:   	  absolute ;
+	left:	    	  270px    ;
+	color:      	  black    ;
+	width:      	  120px    ;
+	text-align: 	  center   ; 
+	border-radius:    5px  	   ;
+	font-weight: 	  700 	   ;
+	background-color: #B5B5B5  ;
+	
+}
+
+
+#VisualizzaArticoli {
+
+	top: 53px     ;
+
+}
+
+
+#VisualizzaDemo {
+
+	top: 93px     ;
+	
+}
+
+
+#VisualizzaExtraMetal {
+
+	top: 131px ;
+
+}
+
+
+#VisualizzaInterviste {
+
+	top: 171px ;
+
+}
+
+
+#VisualizzaLiveReport {
+
+	top: 210px ;
+
+}
+
+
+#VisualizzaNotizie {
+
+	top: 249px ;
+
+}
+
+
+#VisualizzaRispolverati {
+
+	top: 287px ;
+
+}
+
+
+#VisualizzaUltimeUscite {
+
+	top: 327px ;
+
+}

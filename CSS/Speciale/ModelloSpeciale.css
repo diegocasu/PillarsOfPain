@@ -1,0 +1,215 @@
+
+#TitoloSpeciali {
+
+	display: 	 	  inline-block ;
+	position: 	 	  relative     ;
+	width:   	 	  700px 	   ;
+	height:  		  auto  	   ;
+	top:	 	 	  32px 		   ;
+	font-size:        24px 	  	   ;
+	font-weight: 	  900 	 	   ;
+	font-family: 	  serif, sans-serif ;
+	color: 		      #B5B5B5  	   ;
+	margin:	          0px   	   ;
+	padding-bottom:   25px   	   ;
+	padding-top:      5px   	   ;
+	background-color: rgba(0,0,0,0.6) ;
+	text-align: 	  center 	   ;
+
+}
+
+
+#TestoSpeciali {
+
+	position: 		  relative ;
+	width:    		  670px    ;
+	height:   		  auto     ;
+	top:	  		  32px     ;
+	color:	  	   	  #B5B5B5  ;
+	text-align:    	  justify  ;
+	padding-right:    15px     ;
+	padding-left:     15px     ;
+	padding-bottom:   10px     ;
+	font-size: 	      17px     ;
+	background-color: rgba(0,0,0,0.6) ;
+
+}
+
+
+#TestoSpeciali p{
+
+	font-weight: normal ;
+
+}
+
+#TestoSpeciali h1 {
+
+	font-size: 	 17px   ;
+	font-weight: 700    ;
+	display:     inline ;
+
+}
+
+
+cite {
+
+	font-size: 16px ;
+
+}
+
+
+#TestoSpeciali iframe {
+
+	border: 0px ;
+
+}
+
+
+#TestoSpeciali pre {
+
+	font-family: serif, sans-serif ;
+
+}
+
+
+#TestoSpeciali a {
+
+	color: #551A8B ;
+
+}
+
+
+#ContenitoreAutoreSpeciali {
+
+	position: relative ;
+	top:	  32px     ;
+	width: 	  700px    ;
+	height:   40px     ;
+	background-color: rgba(0,0,0,0.6) ;
+
+}
+
+
+#AutoreSpeciali { 
+
+	position: 	  relative;
+	top:		  3px    ;
+	font-family:  serif, sans-serif ;
+	font-size:    18px    ;
+	color:		  #B5B5B5 ;
+	margin:	      0px     ;
+	text-align:   center  ;
+
+}
+
+
+#LinkAutoreSpeciali {
+
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ;
+
+}
+
+
+#LinkAutoreSpeciali:hover {
+
+	color: #551A8B ;
+
+}
+
+
+#ContenitoreImmaginiSpeciali {
+
+	position: absolute ;
+	top:	  155px    ;
+	width: 	  0px      ;
+	height:   auto     ;
+
+}
+
+
+.ImmagineSpeciale {
+
+	position: 		relative ;
+	width: 	  		280px    ;
+	height:   		auto     ; 
+	left:	  		708px    ;
+	top: 	 	    2px      ;
+	border-radius:	5px      ;
+	box-shadow: rgba(0,0,0,0.6) 2px 2px 2px 2px  ;
+
+}
+
+
+.DescrizioneImmagineSpeciale {
+
+	position: 	  relative ;
+	width:    	  280px    ;
+	height:   	  auto     ;
+	left:	  	  708px    ;
+	top:      	  -5px     ;	
+	text-align:   center   ;
+	font-family:  serif, sans-serif ;
+	font-size:    16px     ;
+	color:		  #B5B5B5  ;
+
+}
+
+
+.SezioneAltriSpeciali {
+
+	position:  		relative ;
+	width:     		280px 	 ;
+	height: 	    25px     ;
+	top:			5px      ;
+	left: 	   		708px 	 ;
+	color: 	 	 	#B5B5B5  ;
+	font-size: 		20px  	 ;
+	border-style:   solid    ;
+	border-color:   #B5B5B5  ;
+	text-align:     center   ;
+
+}
+
+
+.AltroSpeciale {
+
+	position: 		relative ;
+	width: 	  		280px    ;
+	height:   		auto     ;
+	left:	  		708px 	 ;
+	border-style:   solid    ;
+	border-color:   #B5B5B5  ;
+	margin-top:     10px     ;
+	background-color: rgba(0,0,0,0.6) ;
+	text-align: 	center   ;
+
+}
+
+
+.AltroSpecialeTitolo {
+
+	display: 	 	  	inline-block ;
+	position: 	 	  	relative     ;
+	height:  		  	auto   	   	 ;
+	font-size:        	17px 	  	 ;
+	font-weight: 	  	900 	 	 ;
+	font-family: 	  	serif, sans-serif ;
+	color: 		      	#B5B5B5  	 ;
+	margin:	         	0px   	     ;
+	padding: 			5px			 ; 
+	transition: 		color 500ms ease ;
+	-moz-transition: 	color 500ms ease ; 
+  	-o-transition: 		color 500ms ease ; 
+  	-webkit-transition: color 500ms ease ;
+
+}
+
+
+.AltroSpecialeTitolo:hover {
+
+	color: #551A8B ;
+
+}
